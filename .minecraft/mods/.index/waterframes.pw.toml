@@ -1,0 +1,13 @@
+filename = 'waterframes-FORGE-mc1.20.1-v2.0.14.jar'
+name = 'WATERFrAMES'
+side = 'both'
+
+[download]
+hash = '16560334309937164d6d4939ae9412d0249c682e495b1d99377bee3b7f8d1ddbea0e807566e18ba1e7dc9a68e511900ec1d7ab735bfbf740403bbc3a3905fa25'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/eBzFuVTM/versions/YGm5PMF0/waterframes-FORGE-mc1.20.1-v2.0.14.jar'
+
+[update.modrinth]
+mod-id = 'eBzFuVTM'
+version = 'YGm5PMF0'

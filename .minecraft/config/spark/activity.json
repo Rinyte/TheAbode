@@ -1,0 +1,28 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "Rinyte",
+      "uniqueId": "30dbc3c9-6ce5-42f3-8982-5025a479b15b"
+    },
+    "time": 1724052690551,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/VtZhvMHiFy"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Rinyte",
+      "uniqueId": "30dbc3c9-6ce5-42f3-8982-5025a479b15b"
+    },
+    "time": 1724052306332,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/vyZA1fwzBG"
+    }
+  }
+]

@@ -1,0 +1,13 @@
+filename = 'watermedia-2.0.70.jar'
+name = 'WATERMeDIA'
+side = 'client'
+
+[download]
+hash = '353e7e342da64e4f6a286c4423bf21466d1a521c10285c69a431e7bd28e741b84f7ac793ee1ca2274e83def1e114b6e571db3efc87f898a3c5d2667e5bca676f'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/G922NeHS/versions/mBD3v45M/watermedia-2.0.70.jar'
+
+[update.modrinth]
+mod-id = 'G922NeHS'
+version = 'mBD3v45M'

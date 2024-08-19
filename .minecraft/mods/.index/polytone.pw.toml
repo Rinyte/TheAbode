@@ -1,0 +1,13 @@
+filename = 'polytone-1.20-2.3.1.jar'
+name = 'Polytone'
+side = 'client'
+
+[download]
+hash = 'e38df8d476a3ffa3498e94fe14d234f62314abf1f2bde3a920923ff472b1eb9cd7f669fdb17b2f8c63ac908a4a38dc108cf7d2a94210e6e6ba5b59b2ffe8696a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/3qAYkBMB/versions/YtyajnmT/polytone-1.20-2.3.1.jar'
+
+[update.modrinth]
+mod-id = '3qAYkBMB'
+version = 'YtyajnmT'
