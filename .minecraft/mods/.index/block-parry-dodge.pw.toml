@@ -1,0 +1,13 @@
+filename = 'block_parry_dodge_1.20.1.jar'
+name = 'Block, Parry, Dodge'
+side = 'both'
+
+[download]
+hash = '0ed22984322f32fe7e802b2150f08a2c3ff53e89'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5622581
+project-id = 1027340

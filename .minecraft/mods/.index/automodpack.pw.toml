@@ -1,0 +1,13 @@
+filename = 'automodpack-mc1.20.1-forge-4.0.0-beta15.jar'
+name = 'AutoModpack'
+side = 'both'
+
+[download]
+hash = '86752614352ce81e505e585e0014cb60bab0de8f7b150ee71d22bedf4aee5d5af7438bc5a36190bb1b690e199a85b9f8e284f537a7c0801df112a77a486d7fcf'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/k68glP2e/versions/puLuT3zV/automodpack-mc1.20.1-forge-4.0.0-beta15.jar'
+
+[update.modrinth]
+mod-id = 'k68glP2e'
+version = 'puLuT3zV'

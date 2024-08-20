@@ -1,0 +1,15 @@
+enableFastMove = true
+diveRollEnabled = true
+diveRollStaminaCost = 50
+diveRollSpeedBoostMultiplier = 1.0
+diveRollCoolDown = 35
+diveRollWhenSwimming = false
+diveRollWhenFlying = true
+wallRunEnabled = true
+wallRunStaminaCost = 0
+wallRunSpeedBoostMultiplier = 1.25
+wallRunDurationTicks = 80
+slideEnabled = true
+slideStaminaCost = 3
+slideSpeedBoostMultiplier = 1.25
+slideCoolDown = 20

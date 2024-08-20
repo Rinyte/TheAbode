@@ -5,7 +5,7 @@
   "exhaustionWallJump": 0.02,
   "minFallDistance": 3.0,
   "elytraSpeedBoost": 0.0,
-  "sprintSpeedBoost": 0.0,
+  "sprintSpeedBoost": 0.5,
   "stepAssist": true,
   "useDoubleJump": true,
   "useWallJump": true,

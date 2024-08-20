@@ -1,6 +1,6 @@
 {
   "is_mod_enable": true,
-  "center_offset_when_flying": false,
+  "center_offset_when_flying": true,
   "use_camera_pick_in_creative": true,
   "player_rotate_with_camera_when_not_aiming": true,
   "player_rotate_to_intrest_point": true,
@@ -26,7 +26,7 @@
   "aiming_smooth_halflife_vertical": 0.05,
   "aiming_camera_offset_smooth_halflife": 0.03,
   "aiming_distance_smooth_halflife": 0.04,
-  "normal_is_centered": false,
+  "normal_is_centered": true,
   "normal_max_distance": 1.5,
   "normal_offset_x": -0.16,
   "normal_offset_y": 0.26,
