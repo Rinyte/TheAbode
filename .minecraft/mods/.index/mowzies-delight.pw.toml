@@ -1,0 +1,13 @@
+filename = 'mowziesdelight-1.0.3-1.20.1.jar'
+name = "Mowzie's Delight"
+side = 'both'
+
+[download]
+hash = 'e7cda94263c727e0e4bf8433eb278676d58772ae'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5625987
+project-id = 1072335

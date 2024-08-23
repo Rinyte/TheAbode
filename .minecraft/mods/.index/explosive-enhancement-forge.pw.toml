@@ -1,0 +1,13 @@
+filename = 'explosiveenhancement-1.0.0.jar'
+name = 'Explosive Enhancement (Forge)'
+side = 'client'
+
+[download]
+hash = 'b7ff3a87d9348d3ce7766264bc63387685515bf05cc723ba73afaeebf84be11138902146d6321ccbb28e2c7a8496bf5b5059b1076d63877eb013086ab52eb893'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/r0camchr/versions/7rq1rEoz/explosiveenhancement-1.0.0.jar'
+
+[update.modrinth]
+mod-id = 'r0camchr'
+version = '7rq1rEoz'
