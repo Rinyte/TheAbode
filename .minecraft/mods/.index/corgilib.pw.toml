@@ -1,0 +1,13 @@
+filename = 'Corgilib-Forge-1.20.1-4.0.3.0.jar'
+name = 'CorgiLib'
+side = 'both'
+
+[download]
+hash = 'f1e83ce2be72a4e9e505e06d9317aeeaec767886'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5643186
+project-id = 693313

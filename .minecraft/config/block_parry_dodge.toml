@@ -1,7 +1,7 @@
 
 [general]
 	#Cooldown in ticks before the player is able to parry again.
-	parry_cooldown = 60.0
+	parry_cooldown = 30.0
 	#The window in ticks after pressing the parry key that successful parries can occur.
 	parry_window = 10.0
 	#Whether or not to immediately set parry off cooldown upon a successful parry.

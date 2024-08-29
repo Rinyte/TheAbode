@@ -5,6 +5,58 @@
       "name": "Rinyte",
       "uniqueId": "30dbc3c9-6ce5-42f3-8982-5025a479b15b"
     },
+    "time": 1724433400190,
+    "type": "Heap dump",
+    "data": {
+      "type": "file",
+      "value": "C:\\Users\\acr\\AppData\\Roaming\\PrismLauncher\\instances\\TheAbode\\.minecraft\\config\\spark\\heap-2024-08-24_01.16.29.hprof"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Rinyte",
+      "uniqueId": "30dbc3c9-6ce5-42f3-8982-5025a479b15b"
+    },
+    "time": 1724433388500,
+    "type": "Heap dump summary",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/7iG4Mx4AjY"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Rinyte",
+      "uniqueId": "30dbc3c9-6ce5-42f3-8982-5025a479b15b"
+    },
+    "time": 1724432040537,
+    "type": "Heap dump summary",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/o5ivsd1Muu"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Rinyte",
+      "uniqueId": "30dbc3c9-6ce5-42f3-8982-5025a479b15b"
+    },
+    "time": 1724432028600,
+    "type": "Heap dump",
+    "data": {
+      "type": "file",
+      "value": "C:\\Users\\acr\\AppData\\Roaming\\PrismLauncher\\instances\\TheAbode\\.minecraft\\config\\spark\\heap-2024-08-24_00.53.38.hprof"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Rinyte",
+      "uniqueId": "30dbc3c9-6ce5-42f3-8982-5025a479b15b"
+    },
     "time": 1724052690551,
     "type": "Profiler (live)",
     "data": {

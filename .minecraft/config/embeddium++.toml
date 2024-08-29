@@ -5,7 +5,7 @@
 		#Configure FPS Display mode
 		#Complete mode gives you min FPS count and average count
 		#Allowed Values: OFF, SIMPLE, ADVANCED
-		fpsDisplay = "ADVANCED"
+		fpsDisplay = "OFF"
 		#Shows GPU and memory usage onto FPS display
 		#Allowed Values: OFF, ON, GPU, RAM
 		fpsDisplaySystem = "ON"
@@ -126,7 +126,7 @@
 		chunkFadeSpeed = "SLOW"
 		#Clean my skies
 		#Blue band was a vanilla feature, toggle off will show sky color directly
-		blueBand = true
+		blueBand = false
 		#Raise clouds
 		#Modify clouds height perfect for a adaptative world experience
 		#Range: 0 ~ 512

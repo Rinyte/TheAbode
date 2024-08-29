@@ -50,6 +50,13 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "exposure": {
+    "lightroom": true,
+    "photograph_frame": true
+  },
+  "twilightforest": {
+    "quest_ram_wool": true
+  },
   "jade": {
     "coordinates.rel": false,
     "distance": false,

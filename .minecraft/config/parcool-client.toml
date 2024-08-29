@@ -1,17 +1,17 @@
 
 ["Possibility of Actions(Some do not have to work)"]
 	can_BreakfallReady = true
-	can_CatLeap = true
+	can_CatLeap = false
 	can_ClimbPoles = true
 	can_ClimbUp = true
-	can_ClingToCliff = true
+	can_ClingToCliff = false
 	can_Crawl = true
 	can_Dive = true
 	can_Dodge = false
 	can_FastRun = true
 	can_FastSwim = true
 	can_Flipping = true
-	can_HangDown = true
+	can_HangDown = false
 	can_HorizontalWallRun = true
 	can_JumpFromBar = true
 	can_QuickTurn = true
@@ -21,7 +21,7 @@
 	can_Tap = true
 	can_Vault = true
 	can_VerticalWallRun = true
-	can_WallJump = false
+	can_WallJump = true
 	can_WallSlide = true
 
 ["Stamina HUD Configuration"]
@@ -100,7 +100,7 @@
 	#Allowed Values: PressRightAndLeft, TapMovementAndJump, PressFlippingKey
 	flip_control = "PressFlippingKey"
 	#Enable double-tapping ctrl for Dodge
-	enable_double_tapping_for_dodge = false
+	enable_double_tapping_for_dodge = true
 	#Enable Crawl in air
 	enable_crawl_in_air = true
 	#Enable Vault in air
@@ -128,7 +128,7 @@
 [Modifier]
 	#How long you can do Horizontal Wall Run
 	#Range: 15 ~ 40
-	wall-run_continuable_tick = 25
+	wall-run_continuable_tick = 40
 	#How long you can do Slide
 	#Range: 10 ~ 30
 	sliding_continuable_tick = 15

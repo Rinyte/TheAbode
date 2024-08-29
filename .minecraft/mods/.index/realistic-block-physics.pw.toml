@@ -1,0 +1,13 @@
+filename = 'rbp-1.20.1-1.0.0-rc3.jar'
+name = 'Realistic Block Physics'
+side = 'both'
+
+[download]
+hash = '4fc270fd830b0b6b7b34efb837e67d15621f67c11894ad4d0405179120ac09c3b00b2df706a3fb40e6a3402455d4b71ce1ee603f4bf0b8082d8ebe56da522298'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/45TL8yoG/versions/F20HCBS1/rbp-1.20.1-1.0.0-rc3.jar'
+
+[update.modrinth]
+mod-id = '45TL8yoG'
+version = 'F20HCBS1'
