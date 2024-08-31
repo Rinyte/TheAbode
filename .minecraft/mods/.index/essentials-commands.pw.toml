@@ -1,0 +1,13 @@
+filename = 'essentials_commands-2.0.0-forge-1.20.1.jar'
+name = 'Essentials Commands'
+side = 'server'
+
+[download]
+hash = '0943f8135887872edb0b51a6f11e0e4c1338ac9df5f3047be40c1cfb2fd508958453147bca8bef36d1154d811eb2c377f2fe208e9a12819b5ebbe99bda698819'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/meLvxeBH/versions/AP03eQKm/essentials_commands-2.0.0-forge-1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'meLvxeBH'
+version = 'AP03eQKm'

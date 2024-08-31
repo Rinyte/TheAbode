@@ -1,0 +1,13 @@
+filename = 'tacz_leawindtps_compat-1.0.0.jar'
+name = "TaCZ: Leawind's Third Person Compat"
+side = 'client'
+
+[download]
+hash = '17963a0865bddd3c568ed1c1c885c216d044e0169ffcb3e76c0b92cdd04c2f9a7da366433ef151a61674503fcb8f2ff495657de6abd2bd888a15067a66e36928'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/i5C6oOoT/versions/Bx8uRbZY/tacz_leawindtps_compat-1.0.0.jar'
+
+[update.modrinth]
+mod-id = 'i5C6oOoT'
+version = 'Bx8uRbZY'
