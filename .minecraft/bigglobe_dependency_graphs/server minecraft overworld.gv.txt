@@ -1,0 +1,453 @@
+digraph bigglobe_column_values {
+	rankdir="RL"
+	subgraph "minecraft" {
+		cluster = true
+		label = "minecraft"
+		subgraph "worldgen" {
+			cluster = true
+			label = "worldgen"
+			subgraph "bigglobe_column_value" {
+				cluster = true
+				label = "bigglobe_column_value"
+				subgraph "bigglobe" {
+					cluster = true
+					label = "bigglobe"
+					"minecraft:worldgen/bigglobe_column_value:bigglobe:approximate_distance_above_surface" [ label = "approximate_distance_above_surface" ]
+					"minecraft:worldgen/bigglobe_column_value:bigglobe:approximate_distance_below_surface" [ label = "approximate_distance_below_surface" ]
+					"minecraft:worldgen/bigglobe_column_value:bigglobe:distance_above_surface" [ label = "distance_above_surface" ]
+					"minecraft:worldgen/bigglobe_column_value:bigglobe:distance_below_surface" [ label = "distance_below_surface" ]
+					subgraph "end" {
+						cluster = true
+						label = "end"
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:end/bridge_cloud_angular_bias" [ label = "bridge_cloud_angular_bias" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:end/bridge_cloud_center_offset" [ label = "bridge_cloud_center_offset" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:end/bridge_cloud_horizontal_bias" [ label = "bridge_cloud_horizontal_bias" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:end/bridge_cloud_max_radius" [ label = "bridge_cloud_max_radius" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:end/bridge_cloud_min_radius" [ label = "bridge_cloud_min_radius" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:end/bridge_cloud_radial_bias" [ label = "bridge_cloud_radial_bias" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:end/bridge_cloud_thickness" [ label = "bridge_cloud_thickness" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:end/bridge_cloud_vertical_bias" [ label = "bridge_cloud_vertical_bias" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:end/distance_to_origin" [ label = "distance_to_origin" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:end/foliage" [ label = "foliage" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:end/has_mountain" [ label = "has_mountain" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:end/holes" [ label = "holes" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:end/lower_bridge_cloud_noise" [ label = "lower_bridge_cloud_noise" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:end/lower_bridge_cloud_sdf" [ label = "lower_bridge_cloud_sdf" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:end/lower_ring_cloud_noise" [ label = "lower_ring_cloud_noise" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:end/lower_ring_cloud_sdf" [ label = "lower_ring_cloud_sdf" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:end/mountain_center" [ label = "mountain_center" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:end/mountain_max_y" [ label = "mountain_max_y" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:end/mountain_min_y" [ label = "mountain_min_y" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:end/mountain_thickness" [ label = "mountain_thickness" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:end/nest_sdf" [ label = "nest_sdf" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:end/raw_foliage" [ label = "raw_foliage" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:end/raw_mountain_thickness" [ label = "raw_mountain_thickness" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:end/raw_warp_x" [ label = "raw_warp_x" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:end/raw_warp_z" [ label = "raw_warp_z" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:end/ring_cloud_center_offset" [ label = "ring_cloud_center_offset" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:end/ring_cloud_horizontal_bias" [ label = "ring_cloud_horizontal_bias" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:end/ring_cloud_max_radius" [ label = "ring_cloud_max_radius" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:end/ring_cloud_min_radius" [ label = "ring_cloud_min_radius" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:end/ring_cloud_thickness" [ label = "ring_cloud_thickness" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:end/ring_cloud_vertical_bias" [ label = "ring_cloud_vertical_bias" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:end/spiral" [ label = "spiral" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:end/surface" [ label = "surface" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:end/upper_bridge_cloud_noise" [ label = "upper_bridge_cloud_noise" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:end/upper_bridge_cloud_sdf" [ label = "upper_bridge_cloud_sdf" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:end/upper_ring_cloud_noise" [ label = "upper_ring_cloud_noise" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:end/upper_ring_cloud_sdf" [ label = "upper_ring_cloud_sdf" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:end/warp_angle" [ label = "warp_angle" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:end/warp_bias" [ label = "warp_bias" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:end/warp_radius" [ label = "warp_radius" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:end/warp_x" [ label = "warp_x" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:end/warp_z" [ label = "warp_z" ]
+					}
+					subgraph "islands" {
+						cluster = true
+						label = "islands"
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:islands/basic_surface_height" [ label = "basic_surface_height" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:islands/beachiness" [ label = "beachiness" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:islands/beachy_surface_height" [ label = "beachy_surface_height" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:islands/biome" [ label = "biome" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:islands/cave_noise" [ label = "cave_noise" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:islands/cave_primary_noise" [ label = "cave_primary_noise" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:islands/cave_secondary_noise" [ label = "cave_secondary_noise" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:islands/core_gradient_offset" [ label = "core_gradient_offset" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:islands/curved_island_height" [ label = "curved_island_height" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:islands/dx_height_offset" [ label = "dx_height_offset" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:islands/dx_island_height" [ label = "dx_island_height" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:islands/dz_height_offset" [ label = "dz_height_offset" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:islands/dz_island_height" [ label = "dz_island_height" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:islands/eroded_surface_height" [ label = "eroded_surface_height" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:islands/erosion_multiplier" [ label = "erosion_multiplier" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:islands/foliage_feature" [ label = "foliage_feature" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:islands/has_skylands" [ label = "has_skylands" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:islands/height_offset" [ label = "height_offset" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:islands/is_floating" [ label = "is_floating" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:islands/is_volcano" [ label = "is_volcano" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:islands/island" [ label = "island" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:islands/island_height" [ label = "island_height" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:islands/magicalness" [ label = "magicalness" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:islands/mountainness" [ label = "mountainness" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:islands/raw_foliage" [ label = "raw_foliage" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:islands/raw_temperature" [ label = "raw_temperature" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:islands/sea_depth" [ label = "sea_depth" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:islands/skyland_bottom" [ label = "skyland_bottom" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:islands/skyland_erosion" [ label = "skyland_erosion" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:islands/skyland_top" [ label = "skyland_top" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:islands/snow_chance" [ label = "snow_chance" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:islands/snow_height" [ label = "snow_height" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:islands/surface_erosion" [ label = "surface_erosion" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:islands/surface_states" [ label = "surface_states" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:islands/volcano_excluded_core" [ label = "volcano_excluded_core" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:islands/volcano_excluded_deep_dark" [ label = "volcano_excluded_deep_dark" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:islands/volcano_magma_noise" [ label = "volcano_magma_noise" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:islands/volcano_magma_sdf" [ label = "volcano_magma_sdf" ]
+					}
+					subgraph "nether" {
+						cluster = true
+						label = "nether"
+						subgraph "bubble" {
+							cluster = true
+							label = "bubble"
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:nether/bubble/biome_ashen_wastes" [ label = "biome_ashen_wastes" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:nether/bubble/biome_crimson_forest" [ label = "biome_crimson_forest" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:nether/bubble/biome_inferno" [ label = "biome_inferno" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:nether/bubble/biome_nether_wastes" [ label = "biome_nether_wastes" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:nether/bubble/biome_valley_of_souls" [ label = "biome_valley_of_souls" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:nether/bubble/biome_warped_forest" [ label = "biome_warped_forest" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:nether/bubble/cave_width" [ label = "cave_width" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:nether/bubble/cavern_noise_forest" [ label = "cavern_noise_forest" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:nether/bubble/cavern_noise_inferno" [ label = "cavern_noise_inferno" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:nether/bubble/cavern_noise_nether_wastes" [ label = "cavern_noise_nether_wastes" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:nether/bubble/cavern_scalar" [ label = "cavern_scalar" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:nether/bubble/decorator_ashen_wastes" [ label = "decorator_ashen_wastes" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:nether/bubble/decorator_crimson_forest" [ label = "decorator_crimson_forest" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:nether/bubble/decorator_inferno" [ label = "decorator_inferno" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:nether/bubble/decorator_nether_wastes" [ label = "decorator_nether_wastes" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:nether/bubble/decorator_valley_of_souls" [ label = "decorator_valley_of_souls" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:nether/bubble/decorator_warped_forest" [ label = "decorator_warped_forest" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:nether/bubble/filler_basalt" [ label = "filler_basalt" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:nether/bubble/filler_netherrack" [ label = "filler_netherrack" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:nether/bubble/filler_soul_soil" [ label = "filler_soul_soil" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:nether/bubble/fluid_lava" [ label = "fluid_lava" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:nether/bubble/fluid_soul_lava" [ label = "fluid_soul_lava" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:nether/bubble/lava_decorator_normal" [ label = "lava_decorator_normal" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:nether/bubble/lava_decorator_soul" [ label = "lava_decorator_soul" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:nether/bubble/lava_level_extra" [ label = "lava_level_extra" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:nether/bubble/lava_level_normal" [ label = "lava_level_normal" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:nether/bubble/noise_forest" [ label = "noise_forest" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:nether/bubble/noise_inferno" [ label = "noise_inferno" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:nether/bubble/noise_nether_wastes" [ label = "noise_nether_wastes" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:nether/bubble/raw_cave_noise" [ label = "raw_cave_noise" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:nether/bubble/surface_state_ashen_netherrack" [ label = "surface_state_ashen_netherrack" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:nether/bubble/surface_state_blackstone" [ label = "surface_state_blackstone" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:nether/bubble/surface_state_crimson_nylium" [ label = "surface_state_crimson_nylium" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:nether/bubble/surface_state_none" [ label = "surface_state_none" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:nether/bubble/surface_state_soul_sand" [ label = "surface_state_soul_sand" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:nether/bubble/surface_state_warped_nylium" [ label = "surface_state_warped_nylium" ]
+						}
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:nether/bubble_size" [ label = "bubble_size" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:nether/cavern_fade_radius" [ label = "cavern_fade_radius" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:nether/magma_cell" [ label = "magma_cell" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:nether/max_y" [ label = "max_y" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:nether/mid_y" [ label = "mid_y" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:nether/min_y" [ label = "min_y" ]
+					}
+					subgraph "overworld" {
+						cluster = true
+						label = "overworld"
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/basic_surface_y" [ label = "basic_surface_y" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/beach_cave_exclusion" [ label = "beach_cave_exclusion" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/biased_cavern_noise" [ label = "biased_cavern_noise" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/biased_core_noise" [ label = "biased_core_noise" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/biome" [ label = "biome" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/cave" [ label = "cave" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/cave_system_size" [ label = "cave_system_size" ]
+						subgraph "caves" {
+							cluster = true
+							label = "caves"
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/biased_primary_noise" [ label = "biased_primary_noise" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/biased_secondary_noise" [ label = "biased_secondary_noise" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/dripping_ceiling" [ label = "dripping_ceiling" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/dripping_decorator" [ label = "dripping_decorator" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/dripping_floor" [ label = "dripping_floor" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/easy_depth" [ label = "easy_depth" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/easy_noise" [ label = "easy_noise" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/easy_width" [ label = "easy_width" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/frozen_decorator" [ label = "frozen_decorator" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/frozen_dungeons" [ label = "frozen_dungeons" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/frozen_floor" [ label = "frozen_floor" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/generic_decorator" [ label = "generic_decorator" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/generic_dungeons" [ label = "generic_dungeons" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/hard_depth" [ label = "hard_depth" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/hard_noise" [ label = "hard_noise" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/hard_width" [ label = "hard_width" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/ledge_noise" [ label = "ledge_noise" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/lush_ceiling" [ label = "lush_ceiling" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/lush_decorator" [ label = "lush_decorator" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/lush_floor" [ label = "lush_floor" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/medium_depth" [ label = "medium_depth" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/medium_noise" [ label = "medium_noise" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/medium_width" [ label = "medium_width" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/molten_ceiling" [ label = "molten_ceiling" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/molten_decorator" [ label = "molten_decorator" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/molten_floor" [ label = "molten_floor" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/mushroom_decorator" [ label = "mushroom_decorator" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/mushroom_floor" [ label = "mushroom_floor" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/no_ceiling" [ label = "no_ceiling" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/no_dungeons" [ label = "no_dungeons" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/no_floor" [ label = "no_floor" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/no_surface_depth" [ label = "no_surface_depth" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/sandy_decorator" [ label = "sandy_decorator" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/sandy_dungeons" [ label = "sandy_dungeons" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/sandy_floor" [ label = "sandy_floor" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/surface_depth_noise" [ label = "surface_depth_noise" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/unbiased_primary_noise" [ label = "unbiased_primary_noise" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/unbiased_secondary_noise" [ label = "unbiased_secondary_noise" ]
+						}
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/cliff_height" [ label = "cliff_height" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/cliffiness" [ label = "cliffiness" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/cliffy_snow" [ label = "cliffy_snow" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/cliffy_surface_y" [ label = "cliffy_surface_y" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/continentalness" [ label = "continentalness" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/desert_crack_threshold" [ label = "desert_crack_threshold" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/desert_cracks" [ label = "desert_cracks" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/distance_above_surface" [ label = "distance_above_surface" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/distance_below_surface" [ label = "distance_below_surface" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/dune" [ label = "dune" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/dune_scalar" [ label = "dune_scalar" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/foliage_feature" [ label = "foliage_feature" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/glacier_cell" [ label = "glacier_cell" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/glacier_crack_threshold" [ label = "glacier_crack_threshold" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/glacier_max_y" [ label = "glacier_max_y" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/glacier_maze" [ label = "glacier_maze" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/glacier_min_y" [ label = "glacier_min_y" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/height_adjusted_foliage" [ label = "height_adjusted_foliage" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/height_adjusted_snow_y" [ label = "height_adjusted_snow_y" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/height_adjusted_temperature" [ label = "height_adjusted_temperature" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/hilliness" [ label = "hilliness" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/lake_surface_states" [ label = "lake_surface_states" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/magicalness" [ label = "magicalness" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/processed_surface_y" [ label = "processed_surface_y" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/raw_cavern_noise" [ label = "raw_cavern_noise" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/raw_core_noise" [ label = "raw_core_noise" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/raw_erosion" [ label = "raw_erosion" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/raw_erosion_1024" [ label = "raw_erosion_1024" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/raw_erosion_128" [ label = "raw_erosion_128" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/raw_erosion_16" [ label = "raw_erosion_16" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/raw_erosion_256" [ label = "raw_erosion_256" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/raw_erosion_32" [ label = "raw_erosion_32" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/raw_erosion_4" [ label = "raw_erosion_4" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/raw_erosion_512" [ label = "raw_erosion_512" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/raw_erosion_64" [ label = "raw_erosion_64" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/raw_erosion_8" [ label = "raw_erosion_8" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/raw_foliage" [ label = "raw_foliage" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/raw_glacier_maze_noise" [ label = "raw_glacier_maze_noise" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/raw_rivers" [ label = "raw_rivers" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/raw_snow" [ label = "raw_snow" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/raw_temperature" [ label = "raw_temperature" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/river_depth" [ label = "river_depth" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/river_dip" [ label = "river_dip" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/river_water_depth" [ label = "river_water_depth" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/river_water_y" [ label = "river_water_y" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/rivered_snow" [ label = "rivered_snow" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/sea_level" [ label = "sea_level" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/skyland" [ label = "skyland" ]
+						subgraph "skylands" {
+							cluster = true
+							label = "skylands"
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/skylands/average_center_y" [ label = "average_center_y" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/skylands/cracked_plains_large_bounds" [ label = "cracked_plains_large_bounds" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/skylands/cracked_plains_large_thickness" [ label = "cracked_plains_large_thickness" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/skylands/cracked_plains_small_bounds" [ label = "cracked_plains_small_bounds" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/skylands/cracked_plains_small_thickness" [ label = "cracked_plains_small_thickness" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/skylands/exclusion" [ label = "exclusion" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/skylands/plains_center" [ label = "plains_center" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/skylands/plains_surface_depth" [ label = "plains_surface_depth" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/skylands/platform_large" [ label = "platform_large" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/skylands/platform_large_bounds" [ label = "platform_large_bounds" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/skylands/platform_large_random_tree" [ label = "platform_large_random_tree" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/skylands/platform_small" [ label = "platform_small" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/skylands/platform_small_bounds" [ label = "platform_small_bounds" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/skylands/platform_small_random_tree" [ label = "platform_small_random_tree" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/skylands/spiral_mountain_bounds" [ label = "spiral_mountain_bounds" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/skylands/spiral_mountain_center" [ label = "spiral_mountain_center" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/skylands/swiss_cheese_plains_bounds" [ label = "swiss_cheese_plains_bounds" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/skylands/swiss_cheese_plains_thickness" [ label = "swiss_cheese_plains_thickness" ]
+							"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/skylands/uniform_random_tree" [ label = "uniform_random_tree" ]
+						}
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/snow_y" [ label = "snow_y" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/surface_foliage" [ label = "surface_foliage" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/surface_states" [ label = "surface_states" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/surface_temperature" [ label = "surface_temperature" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/wood_palette" [ label = "wood_palette" ]
+					}
+					subgraph "paradise" {
+						cluster = true
+						label = "paradise"
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/bridge_cloud_angular_bias" [ label = "bridge_cloud_angular_bias" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/bridge_cloud_center_offset" [ label = "bridge_cloud_center_offset" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/bridge_cloud_horizontal_bias" [ label = "bridge_cloud_horizontal_bias" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/bridge_cloud_max_radius" [ label = "bridge_cloud_max_radius" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/bridge_cloud_min_radius" [ label = "bridge_cloud_min_radius" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/bridge_cloud_radial_bias" [ label = "bridge_cloud_radial_bias" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/bridge_cloud_thickness" [ label = "bridge_cloud_thickness" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/bridge_cloud_vertical_bias" [ label = "bridge_cloud_vertical_bias" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/bubble_thickness" [ label = "bubble_thickness" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/mountain_center" [ label = "mountain_center" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/mountain_thickness" [ label = "mountain_thickness" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/raw_mountain_thickness" [ label = "raw_mountain_thickness" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/ring_cloud_center_offset" [ label = "ring_cloud_center_offset" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/ring_cloud_horizontal_bias" [ label = "ring_cloud_horizontal_bias" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/ring_cloud_max_radius" [ label = "ring_cloud_max_radius" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/ring_cloud_min_radius" [ label = "ring_cloud_min_radius" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/ring_cloud_thickness" [ label = "ring_cloud_thickness" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/ring_cloud_vertical_bias" [ label = "ring_cloud_vertical_bias" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/spiral" [ label = "spiral" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/upper_bridge_cloud_noise" [ label = "upper_bridge_cloud_noise" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/upper_bridge_cloud_sdf" [ label = "upper_bridge_cloud_sdf" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/upper_ring_cloud_noise" [ label = "upper_ring_cloud_noise" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/upper_ring_cloud_sdf" [ label = "upper_ring_cloud_sdf" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/warp_angle" [ label = "warp_angle" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/warp_radius" [ label = "warp_radius" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/warp_x" [ label = "warp_x" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/warp_z" [ label = "warp_z" ]
+					}
+				}
+			}
+		}
+	}
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:approximate_distance_above_surface" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/basic_surface_y" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:approximate_distance_below_surface" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/basic_surface_y" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:distance_above_surface" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/processed_surface_y" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:distance_below_surface" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/processed_surface_y" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:end/bridge_cloud_angular_bias" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:end/warp_angle" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:end/bridge_cloud_center_offset" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:end/warp_radius" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:end/bridge_cloud_horizontal_bias" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:end/bridge_cloud_angular_bias" "minecraft:worldgen/bigglobe_column_value:bigglobe:end/bridge_cloud_radial_bias" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:end/bridge_cloud_radial_bias" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:end/bridge_cloud_max_radius" "minecraft:worldgen/bigglobe_column_value:bigglobe:end/bridge_cloud_min_radius" "minecraft:worldgen/bigglobe_column_value:bigglobe:end/warp_radius" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:end/bridge_cloud_vertical_bias" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:end/bridge_cloud_center_offset" "minecraft:worldgen/bigglobe_column_value:bigglobe:end/bridge_cloud_thickness" "minecraft:worldgen/bigglobe_column_value:bigglobe:end/mountain_center" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:end/foliage" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:end/raw_foliage" "minecraft:worldgen/bigglobe_column_value:bigglobe:end/raw_mountain_thickness" "minecraft:worldgen/bigglobe_column_value:bigglobe:end/spiral" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:end/has_mountain" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:end/mountain_max_y" "minecraft:worldgen/bigglobe_column_value:bigglobe:end/mountain_min_y" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:end/lower_bridge_cloud_noise" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:end/bridge_cloud_center_offset" "minecraft:worldgen/bigglobe_column_value:bigglobe:end/bridge_cloud_min_radius" "minecraft:worldgen/bigglobe_column_value:bigglobe:end/bridge_cloud_thickness" "minecraft:worldgen/bigglobe_column_value:bigglobe:end/mountain_center" "minecraft:worldgen/bigglobe_column_value:bigglobe:end/warp_radius" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:end/lower_bridge_cloud_sdf" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:end/bridge_cloud_center_offset" "minecraft:worldgen/bigglobe_column_value:bigglobe:end/bridge_cloud_horizontal_bias" "minecraft:worldgen/bigglobe_column_value:bigglobe:end/bridge_cloud_min_radius" "minecraft:worldgen/bigglobe_column_value:bigglobe:end/bridge_cloud_thickness" "minecraft:worldgen/bigglobe_column_value:bigglobe:end/bridge_cloud_vertical_bias" "minecraft:worldgen/bigglobe_column_value:bigglobe:end/lower_bridge_cloud_noise" "minecraft:worldgen/bigglobe_column_value:bigglobe:end/mountain_center" "minecraft:worldgen/bigglobe_column_value:bigglobe:end/warp_radius" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:end/lower_ring_cloud_noise" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:end/mountain_center" "minecraft:worldgen/bigglobe_column_value:bigglobe:end/ring_cloud_center_offset" "minecraft:worldgen/bigglobe_column_value:bigglobe:end/ring_cloud_max_radius" "minecraft:worldgen/bigglobe_column_value:bigglobe:end/ring_cloud_min_radius" "minecraft:worldgen/bigglobe_column_value:bigglobe:end/ring_cloud_thickness" "minecraft:worldgen/bigglobe_column_value:bigglobe:end/warp_radius" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:end/lower_ring_cloud_sdf" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:end/lower_ring_cloud_noise" "minecraft:worldgen/bigglobe_column_value:bigglobe:end/mountain_center" "minecraft:worldgen/bigglobe_column_value:bigglobe:end/ring_cloud_center_offset" "minecraft:worldgen/bigglobe_column_value:bigglobe:end/ring_cloud_horizontal_bias" "minecraft:worldgen/bigglobe_column_value:bigglobe:end/ring_cloud_max_radius" "minecraft:worldgen/bigglobe_column_value:bigglobe:end/ring_cloud_min_radius" "minecraft:worldgen/bigglobe_column_value:bigglobe:end/ring_cloud_thickness" "minecraft:worldgen/bigglobe_column_value:bigglobe:end/ring_cloud_vertical_bias" "minecraft:worldgen/bigglobe_column_value:bigglobe:end/warp_radius" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:end/mountain_max_y" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:end/mountain_center" "minecraft:worldgen/bigglobe_column_value:bigglobe:end/mountain_thickness" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:end/mountain_min_y" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:end/mountain_center" "minecraft:worldgen/bigglobe_column_value:bigglobe:end/mountain_thickness" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:end/mountain_thickness" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:end/distance_to_origin" "minecraft:worldgen/bigglobe_column_value:bigglobe:end/holes" "minecraft:worldgen/bigglobe_column_value:bigglobe:end/raw_mountain_thickness" "minecraft:worldgen/bigglobe_column_value:bigglobe:end/spiral" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:end/nest_sdf" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:end/distance_to_origin" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:end/raw_mountain_thickness" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:end/warp_radius" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:end/ring_cloud_horizontal_bias" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:end/ring_cloud_max_radius" "minecraft:worldgen/bigglobe_column_value:bigglobe:end/ring_cloud_min_radius" "minecraft:worldgen/bigglobe_column_value:bigglobe:end/warp_radius" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:end/ring_cloud_vertical_bias" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:end/mountain_center" "minecraft:worldgen/bigglobe_column_value:bigglobe:end/ring_cloud_center_offset" "minecraft:worldgen/bigglobe_column_value:bigglobe:end/ring_cloud_thickness" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:end/spiral" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:end/warp_angle" "minecraft:worldgen/bigglobe_column_value:bigglobe:end/warp_radius" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:end/upper_bridge_cloud_noise" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:end/bridge_cloud_center_offset" "minecraft:worldgen/bigglobe_column_value:bigglobe:end/bridge_cloud_min_radius" "minecraft:worldgen/bigglobe_column_value:bigglobe:end/bridge_cloud_thickness" "minecraft:worldgen/bigglobe_column_value:bigglobe:end/mountain_center" "minecraft:worldgen/bigglobe_column_value:bigglobe:end/warp_radius" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:end/upper_bridge_cloud_sdf" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:end/bridge_cloud_center_offset" "minecraft:worldgen/bigglobe_column_value:bigglobe:end/bridge_cloud_horizontal_bias" "minecraft:worldgen/bigglobe_column_value:bigglobe:end/bridge_cloud_min_radius" "minecraft:worldgen/bigglobe_column_value:bigglobe:end/bridge_cloud_thickness" "minecraft:worldgen/bigglobe_column_value:bigglobe:end/bridge_cloud_vertical_bias" "minecraft:worldgen/bigglobe_column_value:bigglobe:end/mountain_center" "minecraft:worldgen/bigglobe_column_value:bigglobe:end/upper_bridge_cloud_noise" "minecraft:worldgen/bigglobe_column_value:bigglobe:end/warp_radius" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:end/upper_ring_cloud_noise" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:end/mountain_center" "minecraft:worldgen/bigglobe_column_value:bigglobe:end/ring_cloud_center_offset" "minecraft:worldgen/bigglobe_column_value:bigglobe:end/ring_cloud_max_radius" "minecraft:worldgen/bigglobe_column_value:bigglobe:end/ring_cloud_min_radius" "minecraft:worldgen/bigglobe_column_value:bigglobe:end/ring_cloud_thickness" "minecraft:worldgen/bigglobe_column_value:bigglobe:end/warp_radius" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:end/upper_ring_cloud_sdf" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:end/mountain_center" "minecraft:worldgen/bigglobe_column_value:bigglobe:end/ring_cloud_center_offset" "minecraft:worldgen/bigglobe_column_value:bigglobe:end/ring_cloud_horizontal_bias" "minecraft:worldgen/bigglobe_column_value:bigglobe:end/ring_cloud_max_radius" "minecraft:worldgen/bigglobe_column_value:bigglobe:end/ring_cloud_min_radius" "minecraft:worldgen/bigglobe_column_value:bigglobe:end/ring_cloud_thickness" "minecraft:worldgen/bigglobe_column_value:bigglobe:end/ring_cloud_vertical_bias" "minecraft:worldgen/bigglobe_column_value:bigglobe:end/upper_ring_cloud_noise" "minecraft:worldgen/bigglobe_column_value:bigglobe:end/warp_radius" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:end/warp_angle" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:end/warp_x" "minecraft:worldgen/bigglobe_column_value:bigglobe:end/warp_z" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:end/warp_bias" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:end/distance_to_origin" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:end/warp_radius" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:end/warp_x" "minecraft:worldgen/bigglobe_column_value:bigglobe:end/warp_z" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:end/warp_x" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:end/raw_warp_x" "minecraft:worldgen/bigglobe_column_value:bigglobe:end/warp_bias" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:end/warp_z" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:end/raw_warp_z" "minecraft:worldgen/bigglobe_column_value:bigglobe:end/warp_bias" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:islands/basic_surface_height" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:islands/curved_island_height" "minecraft:worldgen/bigglobe_column_value:bigglobe:islands/height_offset" "minecraft:worldgen/bigglobe_column_value:bigglobe:islands/is_floating" "minecraft:worldgen/bigglobe_column_value:bigglobe:islands/island_height" "minecraft:worldgen/bigglobe_column_value:bigglobe:islands/sea_depth" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:islands/beachy_surface_height" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:islands/basic_surface_height" "minecraft:worldgen/bigglobe_column_value:bigglobe:islands/beachiness" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:islands/cave_noise" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:islands/cave_primary_noise" "minecraft:worldgen/bigglobe_column_value:bigglobe:islands/cave_secondary_noise" "minecraft:worldgen/bigglobe_column_value:bigglobe:islands/is_volcano" "minecraft:worldgen/bigglobe_column_value:bigglobe:islands/volcano_magma_sdf" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/cave" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/easy_depth" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/hard_depth" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/medium_depth" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/processed_surface_y" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/processed_surface_y" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:islands/cave_primary_noise" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/cave" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/easy_depth" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/hard_depth" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/medium_depth" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/processed_surface_y" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/processed_surface_y" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:islands/cave_secondary_noise" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/cave" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/easy_depth" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/hard_depth" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/medium_depth" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/processed_surface_y" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/processed_surface_y" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:islands/curved_island_height" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:islands/island" "minecraft:worldgen/bigglobe_column_value:bigglobe:islands/mountainness" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:islands/dx_island_height" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:islands/island" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:islands/dz_island_height" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:islands/island" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:islands/eroded_surface_height" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:islands/beachy_surface_height" "minecraft:worldgen/bigglobe_column_value:bigglobe:islands/erosion_multiplier" "minecraft:worldgen/bigglobe_column_value:bigglobe:islands/surface_erosion" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:islands/erosion_multiplier" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:islands/beachy_surface_height" "minecraft:worldgen/bigglobe_column_value:bigglobe:islands/island" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:islands/has_skylands" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:islands/is_floating" "minecraft:worldgen/bigglobe_column_value:bigglobe:islands/skyland_bottom" "minecraft:worldgen/bigglobe_column_value:bigglobe:islands/skyland_top" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:islands/is_floating" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:islands/island" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:islands/is_volcano" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:islands/is_floating" "minecraft:worldgen/bigglobe_column_value:bigglobe:islands/mountainness" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:islands/island_height" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:islands/mountainness" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:islands/mountainness" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:islands/island" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:islands/skyland_bottom" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:islands/island" "minecraft:worldgen/bigglobe_column_value:bigglobe:islands/skyland_erosion" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:islands/skyland_erosion" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:islands/dx_island_height" "minecraft:worldgen/bigglobe_column_value:bigglobe:islands/dz_island_height" "minecraft:worldgen/bigglobe_column_value:bigglobe:islands/is_floating" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:islands/skyland_top" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:islands/height_offset" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:islands/snow_chance" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:islands/eroded_surface_height" "minecraft:worldgen/bigglobe_column_value:bigglobe:islands/snow_height" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:islands/snow_height" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:islands/beachy_surface_height" "minecraft:worldgen/bigglobe_column_value:bigglobe:islands/eroded_surface_height" "minecraft:worldgen/bigglobe_column_value:bigglobe:islands/erosion_multiplier" "minecraft:worldgen/bigglobe_column_value:bigglobe:islands/surface_erosion" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/sea_level" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/surface_temperature" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:islands/surface_erosion" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:islands/dx_height_offset" "minecraft:worldgen/bigglobe_column_value:bigglobe:islands/dx_island_height" "minecraft:worldgen/bigglobe_column_value:bigglobe:islands/dz_height_offset" "minecraft:worldgen/bigglobe_column_value:bigglobe:islands/dz_island_height" "minecraft:worldgen/bigglobe_column_value:bigglobe:islands/is_floating" "minecraft:worldgen/bigglobe_column_value:bigglobe:islands/mountainness" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:islands/volcano_excluded_core" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:islands/is_volcano" "minecraft:worldgen/bigglobe_column_value:bigglobe:islands/volcano_magma_sdf" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/biased_core_noise" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:islands/volcano_excluded_deep_dark" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:islands/is_volcano" "minecraft:worldgen/bigglobe_column_value:bigglobe:islands/volcano_magma_sdf" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/biased_cavern_noise" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:islands/volcano_magma_noise" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:islands/eroded_surface_height" "minecraft:worldgen/bigglobe_column_value:bigglobe:islands/is_volcano" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:islands/volcano_magma_sdf" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:islands/eroded_surface_height" "minecraft:worldgen/bigglobe_column_value:bigglobe:islands/is_volcano" "minecraft:worldgen/bigglobe_column_value:bigglobe:islands/island" "minecraft:worldgen/bigglobe_column_value:bigglobe:islands/island_height" "minecraft:worldgen/bigglobe_column_value:bigglobe:islands/volcano_magma_noise" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:nether/bubble/cavern_noise_forest" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:nether/cavern_fade_radius" "minecraft:worldgen/bigglobe_column_value:bigglobe:nether/max_y" "minecraft:worldgen/bigglobe_column_value:bigglobe:nether/mid_y" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:nether/bubble/cavern_noise_inferno" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:nether/cavern_fade_radius" "minecraft:worldgen/bigglobe_column_value:bigglobe:nether/max_y" "minecraft:worldgen/bigglobe_column_value:bigglobe:nether/mid_y" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:nether/bubble/cavern_noise_nether_wastes" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:nether/cavern_fade_radius" "minecraft:worldgen/bigglobe_column_value:bigglobe:nether/max_y" "minecraft:worldgen/bigglobe_column_value:bigglobe:nether/mid_y" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:nether/bubble/cavern_scalar" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:nether/cavern_fade_radius" "minecraft:worldgen/bigglobe_column_value:bigglobe:nether/max_y" "minecraft:worldgen/bigglobe_column_value:bigglobe:nether/mid_y" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:nether/bubble/noise_forest" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:nether/bubble/cave_width" "minecraft:worldgen/bigglobe_column_value:bigglobe:nether/bubble/cavern_noise_forest" "minecraft:worldgen/bigglobe_column_value:bigglobe:nether/bubble/cavern_scalar" "minecraft:worldgen/bigglobe_column_value:bigglobe:nether/bubble/lava_level_extra" "minecraft:worldgen/bigglobe_column_value:bigglobe:nether/bubble/lava_level_normal" "minecraft:worldgen/bigglobe_column_value:bigglobe:nether/bubble/raw_cave_noise" "minecraft:worldgen/bigglobe_column_value:bigglobe:nether/bubble_size" "minecraft:worldgen/bigglobe_column_value:bigglobe:nether/max_y" "minecraft:worldgen/bigglobe_column_value:bigglobe:nether/min_y" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:nether/bubble/noise_inferno" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:nether/bubble/cave_width" "minecraft:worldgen/bigglobe_column_value:bigglobe:nether/bubble/cavern_noise_inferno" "minecraft:worldgen/bigglobe_column_value:bigglobe:nether/bubble/cavern_scalar" "minecraft:worldgen/bigglobe_column_value:bigglobe:nether/bubble/lava_level_extra" "minecraft:worldgen/bigglobe_column_value:bigglobe:nether/bubble/lava_level_normal" "minecraft:worldgen/bigglobe_column_value:bigglobe:nether/bubble/raw_cave_noise" "minecraft:worldgen/bigglobe_column_value:bigglobe:nether/bubble_size" "minecraft:worldgen/bigglobe_column_value:bigglobe:nether/max_y" "minecraft:worldgen/bigglobe_column_value:bigglobe:nether/min_y" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:nether/bubble/noise_nether_wastes" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:nether/bubble/cave_width" "minecraft:worldgen/bigglobe_column_value:bigglobe:nether/bubble/cavern_noise_nether_wastes" "minecraft:worldgen/bigglobe_column_value:bigglobe:nether/bubble/cavern_scalar" "minecraft:worldgen/bigglobe_column_value:bigglobe:nether/bubble/lava_level_extra" "minecraft:worldgen/bigglobe_column_value:bigglobe:nether/bubble/lava_level_normal" "minecraft:worldgen/bigglobe_column_value:bigglobe:nether/bubble/raw_cave_noise" "minecraft:worldgen/bigglobe_column_value:bigglobe:nether/bubble_size" "minecraft:worldgen/bigglobe_column_value:bigglobe:nether/max_y" "minecraft:worldgen/bigglobe_column_value:bigglobe:nether/min_y" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:nether/bubble/raw_cave_noise" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:nether/max_y" "minecraft:worldgen/bigglobe_column_value:bigglobe:nether/min_y" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/basic_surface_y" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/cliffy_surface_y" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/river_dip" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/beach_cave_exclusion" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/processed_surface_y" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/river_water_y" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/biased_cavern_noise" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/raw_cavern_noise" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/biased_core_noise" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/raw_core_noise" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/biased_primary_noise" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/cave" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/easy_depth" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/hard_depth" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/medium_depth" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/processed_surface_y" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/processed_surface_y" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/biased_secondary_noise" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/cave" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/easy_depth" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/hard_depth" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/medium_depth" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/processed_surface_y" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/processed_surface_y" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/easy_depth" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/basic_surface_y" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/easy_noise" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/basic_surface_y" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/beach_cave_exclusion" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/cave" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/cave_system_size" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/biased_primary_noise" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/biased_secondary_noise" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/easy_depth" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/easy_depth" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/easy_width" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/hard_depth" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/hard_depth" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/ledge_noise" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/medium_depth" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/medium_depth" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/processed_surface_y" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/processed_surface_y" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/processed_surface_y" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/easy_width" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/basic_surface_y" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/easy_depth" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/hard_depth" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/basic_surface_y" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/hard_noise" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/basic_surface_y" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/beach_cave_exclusion" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/cave" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/cave_system_size" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/easy_depth" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/easy_depth" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/hard_depth" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/hard_depth" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/hard_width" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/medium_depth" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/medium_depth" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/unbiased_primary_noise" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/unbiased_secondary_noise" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/processed_surface_y" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/processed_surface_y" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/processed_surface_y" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/hard_width" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/basic_surface_y" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/hard_depth" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/ledge_noise" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/basic_surface_y" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/easy_depth" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/hard_depth" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/medium_depth" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/processed_surface_y" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/medium_depth" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/basic_surface_y" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/medium_noise" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/basic_surface_y" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/beach_cave_exclusion" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/cave" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/cave_system_size" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/biased_primary_noise" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/biased_secondary_noise" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/easy_depth" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/easy_depth" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/hard_depth" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/hard_depth" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/medium_depth" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/medium_depth" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/medium_width" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/processed_surface_y" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/processed_surface_y" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/processed_surface_y" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/medium_width" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/basic_surface_y" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/medium_depth" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/unbiased_primary_noise" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/cave" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/easy_depth" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/hard_depth" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/medium_depth" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/processed_surface_y" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/processed_surface_y" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/unbiased_secondary_noise" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/cave" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/easy_depth" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/hard_depth" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/caves/medium_depth" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/processed_surface_y" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/processed_surface_y" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/cliffy_snow" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/cliff_height" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/cliffiness" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/hilliness" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/raw_snow" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/cliffy_surface_y" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/cliff_height" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/cliffiness" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/hilliness" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/raw_erosion" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/desert_crack_threshold" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/basic_surface_y" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/magicalness" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/surface_foliage" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/surface_temperature" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/distance_above_surface" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/basic_surface_y" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/distance_below_surface" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/basic_surface_y" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/dune_scalar" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/basic_surface_y" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/magicalness" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/surface_temperature" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/glacier_cell" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/glacier_crack_threshold" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/glacier_crack_threshold" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/hilliness" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/raw_erosion" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/raw_temperature" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/sea_level" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/glacier_max_y" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/glacier_maze" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/glacier_min_y" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/glacier_maze" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/glacier_crack_threshold" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/magicalness" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/raw_glacier_maze_noise" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/height_adjusted_foliage" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/raw_foliage" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/sea_level" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/height_adjusted_snow_y" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/processed_surface_y" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/rivered_snow" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/sea_level" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/surface_temperature" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/height_adjusted_temperature" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/raw_temperature" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/sea_level" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/processed_surface_y" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/basic_surface_y" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/desert_crack_threshold" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/desert_cracks" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/dune" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/dune_scalar" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/river_depth" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/river_dip" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/raw_erosion" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/continentalness" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/hilliness" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/raw_erosion_1024" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/raw_erosion_128" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/raw_erosion_16" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/raw_erosion_256" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/raw_erosion_32" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/raw_erosion_4" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/raw_erosion_512" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/raw_erosion_64" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/raw_erosion_8" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/raw_glacier_maze_noise" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/glacier_crack_threshold" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/magicalness" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/raw_snow" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/continentalness" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/hilliness" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/raw_erosion_1024" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/raw_erosion_128" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/raw_erosion_16" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/raw_erosion_256" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/raw_erosion_32" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/raw_erosion_4" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/raw_erosion_512" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/raw_erosion_64" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/raw_erosion_8" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/river_dip" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/raw_erosion" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/raw_rivers" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/river_depth" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/sea_level" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/river_water_y" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/cliffy_snow" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/river_water_depth" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/sea_level" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/rivered_snow" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/cliffy_snow" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/river_dip" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/skylands/cracked_plains_large_bounds" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/skylands/average_center_y" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/skylands/cracked_plains_large_thickness" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/skylands/exclusion" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/skylands/plains_center" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/skylands/plains_surface_depth" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/skylands/cracked_plains_small_bounds" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/skylands/average_center_y" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/skylands/cracked_plains_small_thickness" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/skylands/exclusion" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/skylands/plains_center" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/skylands/plains_surface_depth" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/skylands/exclusion" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/hilliness" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/raw_erosion" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/raw_temperature" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/sea_level" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/skylands/platform_large_bounds" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/skyland" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/skylands/exclusion" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/skylands/plains_center" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/skylands/plains_surface_depth" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/skylands/platform_large" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/skylands/platform_large_random_tree" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/skylands/platform_large" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/skylands/platform_small_bounds" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/skyland" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/skylands/exclusion" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/skylands/plains_center" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/skylands/plains_surface_depth" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/skylands/platform_small" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/skylands/platform_small_random_tree" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/skylands/platform_small" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/skylands/spiral_mountain_bounds" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/skylands/average_center_y" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/skylands/exclusion" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/skylands/spiral_mountain_center" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/skylands/swiss_cheese_plains_bounds" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/skylands/average_center_y" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/skylands/exclusion" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/skylands/plains_center" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/skylands/plains_surface_depth" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/skylands/swiss_cheese_plains_thickness" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/snow_y" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/height_adjusted_snow_y" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/processed_surface_y" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/river_water_y" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/sea_level" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/surface_foliage" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/basic_surface_y" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/height_adjusted_foliage" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/surface_temperature" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/basic_surface_y" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/height_adjusted_temperature" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/bridge_cloud_angular_bias" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/warp_angle" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/bridge_cloud_center_offset" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/warp_radius" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/bridge_cloud_horizontal_bias" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/bridge_cloud_angular_bias" "minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/bridge_cloud_radial_bias" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/bridge_cloud_radial_bias" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/bridge_cloud_max_radius" "minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/bridge_cloud_min_radius" "minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/warp_radius" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/bridge_cloud_vertical_bias" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/bridge_cloud_center_offset" "minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/bridge_cloud_thickness" "minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/mountain_center" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/bubble_thickness" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/warp_radius" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/mountain_thickness" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/raw_mountain_thickness" "minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/spiral" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/raw_mountain_thickness" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/warp_radius" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/ring_cloud_horizontal_bias" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/ring_cloud_max_radius" "minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/ring_cloud_min_radius" "minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/warp_radius" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/ring_cloud_vertical_bias" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/mountain_center" "minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/ring_cloud_center_offset" "minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/ring_cloud_thickness" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/spiral" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/raw_mountain_thickness" "minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/warp_angle" "minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/warp_radius" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/upper_bridge_cloud_noise" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/bridge_cloud_center_offset" "minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/bridge_cloud_min_radius" "minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/bridge_cloud_thickness" "minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/mountain_center" "minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/warp_radius" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/upper_bridge_cloud_sdf" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/bridge_cloud_center_offset" "minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/bridge_cloud_horizontal_bias" "minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/bridge_cloud_min_radius" "minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/bridge_cloud_thickness" "minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/bridge_cloud_vertical_bias" "minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/mountain_center" "minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/upper_bridge_cloud_noise" "minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/warp_radius" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/upper_ring_cloud_noise" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/mountain_center" "minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/ring_cloud_center_offset" "minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/ring_cloud_max_radius" "minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/ring_cloud_min_radius" "minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/ring_cloud_thickness" "minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/warp_radius" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/upper_ring_cloud_sdf" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/mountain_center" "minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/ring_cloud_center_offset" "minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/ring_cloud_horizontal_bias" "minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/ring_cloud_max_radius" "minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/ring_cloud_min_radius" "minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/ring_cloud_thickness" "minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/ring_cloud_vertical_bias" "minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/upper_ring_cloud_noise" "minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/warp_radius" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/warp_angle" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/warp_x" "minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/warp_z" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/warp_radius" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/warp_x" "minecraft:worldgen/bigglobe_column_value:bigglobe:paradise/warp_z" }
+}

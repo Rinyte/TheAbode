@@ -5,7 +5,7 @@
 		#Configure FPS Display mode
 		#Complete mode gives you min FPS count and average count
 		#Allowed Values: OFF, SIMPLE, ADVANCED
-		fpsDisplay = "OFF"
+		fpsDisplay = "ADVANCED"
 		#Shows GPU and memory usage onto FPS display
 		#Allowed Values: OFF, ON, GPU, RAM
 		fpsDisplaySystem = "ON"
@@ -16,7 +16,7 @@
 		#Configure FPS Display gravity
 		#Places counter on specified corner of your screen
 		#Allowed Values: LEFT, CENTER, RIGHT
-		fpsDisplayGravity = "RIGHT"
+		fpsDisplayGravity = "LEFT"
 		#Toggle FPS Display shadow
 		#In case sometimes you can't see the text
 		fpsDisplayShadow = true

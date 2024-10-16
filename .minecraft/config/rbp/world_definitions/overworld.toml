@@ -39,7 +39,7 @@ PhysicsEnabled = true
 [Defaults]
 	#Specifies the default block definition to give to blocks that do not have one specified.
 	#Leave this empty if you do not wish to apply physics to blocks that do not have a specified block definition.
-	DefaultBlockDefinition = ""
+	DefaultBlockDefinition = "generic"
 
 	#A list of block IDs and tags that should not be given default block definitions.
 	#Entries can be supplied in the below formats:

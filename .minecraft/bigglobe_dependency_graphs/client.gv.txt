@@ -1,0 +1,31 @@
+digraph bigglobe_column_values {
+	rankdir="RL"
+	subgraph "minecraft" {
+		cluster = true
+		label = "minecraft"
+		subgraph "worldgen" {
+			cluster = true
+			label = "worldgen"
+			subgraph "bigglobe_column_value" {
+				cluster = true
+				label = "bigglobe_column_value"
+				subgraph "bigglobe" {
+					cluster = true
+					label = "bigglobe"
+					subgraph "overworld" {
+						cluster = true
+						label = "overworld"
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/height_adjusted_foliage" [ label = "height_adjusted_foliage" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/height_adjusted_temperature" [ label = "height_adjusted_temperature" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/magicalness" [ label = "magicalness" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/raw_foliage" [ label = "raw_foliage" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/raw_temperature" [ label = "raw_temperature" ]
+						"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/sea_level" [ label = "sea_level" ]
+					}
+				}
+			}
+		}
+	}
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/height_adjusted_foliage" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/raw_foliage" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/sea_level" }
+	"minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/height_adjusted_temperature" -> { "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/raw_temperature" "minecraft:worldgen/bigglobe_column_value:bigglobe:overworld/sea_level" }
+}
